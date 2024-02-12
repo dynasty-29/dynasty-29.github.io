@@ -1,67 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Margare Gathoni</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header class="bg-gray-900 text-white p-4">
-        <h1 class="text-3xl font-semibold">My Portfolio</h1>
+    <section id="about__me">
         <nav>
-            <ul class="flex">
-                <li class="mr-6"><a href="#data-science">Data Science</a></li>
-                <li class="mr-6"><a href="#web-dev">Web Development</a></li>
-                <li class="mr-6"><a href="#game-dev">Game Development</a></li>
+            <div class="personal__logo">SonniCodes</div>
+            <ul class="nav__link--list">
+                <li>
+                    <a href="" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--white
+                    ">Skills</a>
+                </li>
+                <li>
+                    <a href="" class="
+                    nav__link--anchor
+                    link__hover-effect
+                    link__hover-effect--white
+                    ">Projects</a>
+                </li>
+                <li>
+                    <a href="" class="
+                    nav__link--anchor
+                    nav__link--anchor-primary
+                    ">Let's Connect</a>
+                </li>
             </ul>
         </nav>
-    </header>
-
-    <main class="p-4">
-        <section id="data-science" class="mb-8">
-            <h2 class="text-2xl font-semibold">Data Science Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Data Science projects go here -->
-                <!-- Example project card: -->
-                <div class="bg-white p-4 shadow-md">
-                    <h3 class="text-xl font-semibold">Project Title</h3>
-                    <p>Description of the project goes here.</p>
+        <div class="flex flex-1">
+            <div class="about-me__info row">
+                <div class="about-me__info--container">
+                    <figure class="about-me__picture--mask">
+                        <img src="./assets/profile.jpg" class="about-me__picture" alt="Profile Picture"/>
+                    </figure>
+                    <h1 class="about-me__info--title">
+                        Hey! I'm <span class="text--purple">Margaret Gathoni</span>
+                    </h1>
+                    <p class="about-me__info--para">
+                        I'm an <strong class="text--purple"> Analyst Developer </strong>, I'm dedicated to crafting innovative solutions that seamlessly merge the power of data
+                        analytics with dynamic digital experiences. From designing captivating user interfaces to developing engaging games, I
+                        thrive on infusing creativity into every project. Let's collaborate and transform your ideas into impactful digital
+                        realities.
+                    </p>
+                    <div class="about-me__links">
+                        <a href="" class="about-me__link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="about-me__link">
+                            <i class="fab fa-github-alt"></i>
+                        </a>
+                        <a href="" class="about-me__link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="about-me__link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="" class="about-me__link">
+                            <i class="fab fa-medium"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section id="web-dev" class="mb-8">
-            <h2 class="text-2xl font-semibold">Web Development Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Web Development projects go here -->
-                <!-- Example project card: -->
-                <div class="bg-white p-4 shadow-md">
-                    <h3 class="text-xl font-semibold">Project Title</h3>
-                    <p>Description of the project goes here.</p>
+        </div>
+    </section>
+    <section id="languages">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">My Techinical Expertise</h1>
+                <div class="language__list">
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/googleanalytics.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">Data Analysis and Visualization</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/html5.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">HTML5</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/csharp.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">C#</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/css3.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">CSS</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/django.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">Django Framework</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/javascript.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">JavaScript</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/mysql.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">SQL</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/python.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">python</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/pytorch.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">pytorch</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/r.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">R</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/react.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">React</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/scikitlearn.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">ML Algorithms</span>
+                        <figure class="language__img--wrapper">
+                            <img src="./assets/icons/tensorflow.svg" class="language__img" alt="HTML">
+                        </figure>
+                        <span class="language__name">tensorflow</span>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section id="game-dev">
-            <h2 class="text-2xl font-semibold">Game Development Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Game Development projects go here -->
-                <!-- Example project card: -->
-                <div class="bg-white p-4 shadow-md">
-                    <h3 class="text-xl font-semibold">Project Title</h3>
-                    <p>Description of the project goes here.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-gray-900 text-white p-4">
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
+        </div>
+    </section>
 </body>
-
 </html>
